@@ -9,11 +9,10 @@ public class Prototype {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-		ICouch coach=(ICouch)context.getBean("myTennisCoach1");
-		coach.setName("Chirag");
+		ICouch coach=(ICoach)context.getBean("myTennisCoach1");
+		coach.setName("Prakash");
 		ICouch coach1 = (ICouch)context.getBean("myTennisCoach1");
-		coach1.setName("Sardana");
-//		System.out.println("The Name of the Coach is : ");
+		coach1.setName("Singh");
 		System.out.println(coach+"\n"+coach1);
 		System.out.println("The Object is equal : "+coach.equals(coach1));//CHecking whether it refers to same memory location or not
 		
