@@ -1,6 +1,6 @@
 package Program7;
 
-import Program2.ICouch;
+import Program2.ICoach;
 import Program2.IFortune;
 import Program4.Address;
 
