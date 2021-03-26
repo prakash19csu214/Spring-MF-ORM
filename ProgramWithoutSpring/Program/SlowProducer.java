@@ -1,4 +1,4 @@
-package Program1;
+package Program;
 
 public class SlowProducer implements Producer {
 
