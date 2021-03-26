@@ -1,6 +1,6 @@
 package Program2;
 
-public class BasetBall implements ICouch {
+public class BasetBall implements ICoach {
 	
 	private IFortune fortune;
 	public BasetBall(IFortune fortune) {
